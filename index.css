@@ -1,0 +1,28 @@
+body{
+    background: #c4c4c4;
+    padding: 10px 0;
+}
+a{
+    outline: none;
+    border: none;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 3px solid teal;
+    border-radius: 10px;
+    max-width: 98vw;
+    word-break: break-word;
+    transition: color .8s ease , background-color .4s ease;
+}
+a:hover, a:focus, a:focus-visible, a:focus-within{
+    background: #000;
+    color: white;
+}
+pre{
+
+}
